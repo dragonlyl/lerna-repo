@@ -2,8 +2,9 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "c": "git-cz",
-    "prepare": "husky install"
+    "cz": "git-cz",
+    "prepare": "husky install",
+    "commitlint": "commitlint --config commitlint.config.js -e -V"
   },
   "config": {
     "commitizen": {
